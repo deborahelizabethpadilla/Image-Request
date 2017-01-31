@@ -29,7 +29,10 @@ class ViewController: UIViewController {
             if error == nil {
                 let downloadImage = UIImage(data: data!)
                 
-                self.imageView.image = downloadImage
+                performUIUpdatesOnMain {
+                    self.imageView.image = downloadImage
+                }
+                
             }
         }
         
