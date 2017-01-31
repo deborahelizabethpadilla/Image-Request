@@ -2,7 +2,7 @@
 //  Constants.swift
 //  ImageRequest
 //
-//  Created by Jarrod Parkes on 11/5/15.
+//  Created by Deborah Padilla on 01/31/17.
 //  Copyright © 2015 Udacity. All rights reserved.
 //
 
