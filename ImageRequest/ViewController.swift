@@ -21,8 +21,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let imageURL = NSURL(string: "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg")!
+        let imageURL = URL(string: "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg")!
         
-        URLSession.shared
-    }
+        let task = URLSession.shared.dataTask(with: imageURL) { (data, response, error) in
+            print("task finished")
+        }
+}
 }
