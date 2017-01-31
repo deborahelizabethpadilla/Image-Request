@@ -25,6 +25,15 @@ class ViewController: UIViewController {
         
         let task = URLSession.shared.dataTask(with: imageURL) { (data, response, error) in
             print("task finished")
+            
+            if error == nil {
+                let downloadImage = UIImage(data: data!)
+                
+                self.imageView.image = downloadImage
+            }
         }
+        
+        task.resume()
 }
+    
 }
