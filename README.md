@@ -1,5 +1,7 @@
 # Image-Request
 
+**Summary:**
+
 This application was created as a test for networking applications.
 
 **The application offers the following features:**
