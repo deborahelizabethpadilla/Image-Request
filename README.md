@@ -1,4 +1,4 @@
-# Image-Request
+# Image Request
 
 **Summary:**
 
